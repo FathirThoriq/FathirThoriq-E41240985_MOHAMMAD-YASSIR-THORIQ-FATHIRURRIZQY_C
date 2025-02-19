@@ -9,9 +9,7 @@ public class Tugas {
         System.out.print("Masukan batas akhir = ");
         int Akhir = scan.nextInt();
         
-        System.out.println("Do - While");
-        System.out.println("Bilangan kelipatan 2 "+"("+Awal+" - "+Akhir+")");
-        System.out.println("==============================");
+        System.out.println("Bilangan awal genap mulai dari "+Awal+" sampai dengan "+Akhir+" adalah ");
         for (int i = Awal; i <= Akhir; i++) {
             if (i % 2 == 0) {
                 System.out.print(i+" ");
